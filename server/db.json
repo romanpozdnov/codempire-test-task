@@ -1,0 +1,101 @@
+{
+  "questions": {
+    "count": 5,
+    "list": [
+      {
+        "id": 1,
+        "type": "textarea",
+        "text": "Какая страна подарила США Статую Свободы?"
+      },
+      {
+        "id": 2,
+        "type": "radio",
+        "text": "Какая рука Леди Свободы поднята вверх?",
+        "options": [
+          {
+            "label": "Левая",
+            "value": "left"
+          },
+          {
+            "label": "Правая",
+            "value": "right"
+          },
+          {
+            "label": "Обе",
+            "value": "both"
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "type": "checkbox",
+        "text": "Какой предмет держит в руках Леди Свобода?",
+        "options": [
+          {
+            "label": "Факел",
+            "value": "torch"
+          },
+          {
+            "label": "Скрижаль",
+            "value": "tablet"
+          },
+          {
+            "label": "Молот",
+            "value": "hammer"
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "type": "select",
+        "text": "Высота Статуи Свободы в метрах?",
+        "options": [
+          {
+            "label": "94 метра",
+            "value": "94"
+          },
+          {
+            "label": "45 метров",
+            "value": "45"
+          },
+          {
+            "label": "93 метра",
+            "value": "93"
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "type": "select",
+        "text": "На каком острове находится?",
+        "options": [
+          {
+            "label": "Манхеттен",
+            "value": "manhattan"
+          },
+          {
+            "label": "Либерти",
+            "value": "liberty"
+          },
+          {
+            "label": "Лонг Айленд",
+            "value": "longisland"
+          }
+        ]
+      }
+    ]
+  },
+  "answers": {
+    "count": 5,
+    "list": {
+      "1": "Франция",
+      "2": "right",
+      "3": [
+        "torch",
+        "tablet"
+      ],
+      "4": "93",
+      "5": "liberty"
+    }
+  }
+}
